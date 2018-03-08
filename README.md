@@ -6,7 +6,7 @@
 Some Cool Animations  written in Swift
 
 
-![preview]()
+![preview](https://github.com/kumarpramod017/PKImageSpark/blob/master/PKImageSparkDemo/demo.gif)
 
 
 ## Requirements

@@ -15,6 +15,8 @@
 		0C5FD3B1204FFADA000D3F39 /* PKImageSpark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5FD3AF204FFADA000D3F39 /* PKImageSpark.swift */; };
 		0C5FD3B2204FFADA000D3F39 /* PKSparkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5FD3B0204FFADA000D3F39 /* PKSparkConfiguration.swift */; };
 		0C5FD3B620501747000D3F39 /* PKBubbleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5FD3B520501747000D3F39 /* PKBubbleAnimation.swift */; };
+		0CF2AC31205119E900D979BE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2AC30205119E900D979BE /* README.md */; };
+		0CF2AC3320511EEB00D979BE /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2AC3220511EEB00D979BE /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		0C5FD3AF204FFADA000D3F39 /* PKImageSpark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKImageSpark.swift; sourceTree = "<group>"; };
 		0C5FD3B0204FFADA000D3F39 /* PKSparkConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKSparkConfiguration.swift; sourceTree = "<group>"; };
 		0C5FD3B520501747000D3F39 /* PKBubbleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKBubbleAnimation.swift; sourceTree = "<group>"; };
+		0CF2AC30205119E900D979BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0CF2AC3220511EEB00D979BE /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		0C5FD39B204FFABB000D3F39 /* PKImageSparkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0CF2AC3220511EEB00D979BE /* demo.gif */,
+				0CF2AC30205119E900D979BE /* README.md */,
 				0C5FD3AE204FFADA000D3F39 /* PKImageSpark */,
 				0C5FD39C204FFABB000D3F39 /* AppDelegate.swift */,
 				0C5FD39E204FFABB000D3F39 /* ViewController.swift */,
@@ -142,6 +148,8 @@
 			files = (
 				0C5FD3A7204FFABB000D3F39 /* LaunchScreen.storyboard in Resources */,
 				0C5FD3A4204FFABB000D3F39 /* Assets.xcassets in Resources */,
+				0CF2AC3320511EEB00D979BE /* demo.gif in Resources */,
+				0CF2AC31205119E900D979BE /* README.md in Resources */,
 				0C5FD3A2204FFABB000D3F39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Al-em-bft">
-                                <rect key="frame" x="147" y="323.5" width="80" height="40"/>
+                                <rect key="frame" x="147" y="343.5" width="80" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1Al-em-bft" secondAttribute="height" multiplier="2" id="Yi8-Gv-itm"/>
                                     <constraint firstAttribute="width" constant="80" id="Zww-f6-zwG"/>
@@ -30,11 +30,19 @@
                                     <action selector="clickMeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S6P-fs-fuK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PKImageSparkDemo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWm-j4-aK3">
+                                <rect key="frame" x="89.5" y="274" width="195.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1Al-em-bft" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UQy-jz-c2P"/>
-                            <constraint firstItem="1Al-em-bft" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="hMS-wL-m4P"/>
+                            <constraint firstItem="1Al-em-bft" firstAttribute="top" secondItem="IWm-j4-aK3" secondAttribute="bottom" constant="45.5" id="ZDf-bf-ycj"/>
+                            <constraint firstItem="IWm-j4-aK3" firstAttribute="centerX" secondItem="1Al-em-bft" secondAttribute="centerX" id="buc-5x-B8d"/>
+                            <constraint firstItem="1Al-em-bft" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="20" id="hMS-wL-m4P"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -7,26 +7,26 @@
 
 import UIKit
 
-enum PKSparkAnimations {
+public enum PKSparkAnimations {
     case bubbleToUpSide
     case bubbleInFullScreen
 }
 
-class PKSparkConfiguration {
+open class PKSparkConfiguration {
     
     //MARK:- Public Properties
     //MARK:-
-    var totalNumberOfSparkImages: Int
-    var sparkOnView: UIView?
-    var sparkGenerationView: UIView?
-    var sparkMinimumSize: CGFloat
-    var sparkMaximumSize: CGFloat
-    var sparkAnimation: PKSparkAnimations
+    public var totalNumberOfSparkImages: Int
+    public var sparkOnView: UIView?
+    public var sparkGenerationView: UIView?
+    public var sparkMinimumSize: CGFloat
+    public var sparkMaximumSize: CGFloat
+    public var sparkAnimation: PKSparkAnimations
     
     
     //MARK:- Initializer
     //MARK:-
-    init() {
+    public init() {
         //default configuration
         self.totalNumberOfSparkImages = 10
         self.sparkMinimumSize = 5.0
@@ -34,3 +34,4 @@ class PKSparkConfiguration {
         self.sparkAnimation = .bubbleInFullScreen
     }
 }
+

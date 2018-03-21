@@ -20,7 +20,7 @@ open class PKImageSpark {
     
     //MARK:- Initializer
     //MARK:-
-    init(withImage image: UIImage, configuration: PKSparkConfiguration) {
+    public init(withImage image: UIImage, configuration: PKSparkConfiguration) {
         self.image = image
         self.cofiguration = configuration
     }
@@ -37,7 +37,7 @@ open class PKImageSpark {
         return (((CGFloat(arc4random()).truncatingRemainder(dividingBy: CGFloat(UInt32(RAND_MAX) + 1))) / CGFloat(RAND_MAX)) * diff) + smallNumber
     }
     
-    func startSparking() {
+    public func startSparking() {
         switch self.cofiguration.sparkAnimation {
         case .bubbleToUpSide:
             _ = PKBubbleAnimation(forSparking: self)
@@ -46,3 +46,4 @@ open class PKImageSpark {
         }
     }
 }
+

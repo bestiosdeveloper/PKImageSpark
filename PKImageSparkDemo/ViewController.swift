@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         confg.sparkOnView = self.view
         confg.sparkGenerationView = self.clickButton
         confg.totalNumberOfSparkImages = 15
-        confg.sparkAnimation = .bubbleToUpSide
+        confg.sparkAnimation = .blast
         
         let sparkAnimation = PKImageSpark(withImage: #imageLiteral(resourceName: "ic_love"), configuration: confg)
         sparkAnimation.startSparking()

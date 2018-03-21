@@ -26,7 +26,7 @@ pod 'PKImageSpark'
 
 ## Usage
 
-#### With storyboard or xib files
+#### In Code
 
 1) Create a instance of  `PKImageSpark` with customised of default configurations and pass an `UIImage` that will spark
 

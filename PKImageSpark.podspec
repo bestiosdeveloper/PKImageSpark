@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PKImageSpark'
-  s.version          = ‘0.1.1’
+  s.version          = '0.1.1'
   s.summary          = 'Show some action on event or action.'
  
   s.description      = <<-DESC
